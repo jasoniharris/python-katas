@@ -1,7 +1,7 @@
-import unittest
+import unittest2
 from primes import is_prime
 
-class PrimesTestCase(unittest.TestCase):
+class PrimesTestCase(unittest2.TestCase):
     """Tests for `primes.py`."""
 
     def test_true_prime(self):
@@ -20,4 +20,4 @@ class PrimesTestCase(unittest.TestCase):
         self.assertFalse(is_prime(-2))
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest2.main()
