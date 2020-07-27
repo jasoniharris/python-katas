@@ -9,7 +9,7 @@ class TestSimpleMethods(unittest.TestCase):
 	def test_true_return(self):
 		self.assertEqual(simple_function(5), 5)
 
-	def test_true_returns(self):
+	def test_exception(self):
  		self.assertRaises(Exception, simple_function(5))
 
 if __name__ == '__main__':
